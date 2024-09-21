@@ -1,3 +1,3 @@
-# 🎮 Game Dev TIL
+# 📚 Game Dev Log
 
-Daily notes on my journey to becoming a game developer. Learning, coding, and leveling up!
+Tracking my progress in game development and programming!
