@@ -1,3 +1,3 @@
-# 📚 Game Dev Log
+# 🎮 Game Dev TIL
 
-Tracking my progress in game development and programming!
+Daily notes on my journey in game development and programming!
