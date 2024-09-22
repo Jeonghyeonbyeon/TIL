@@ -14,6 +14,8 @@ Daily notes on my journey in game development and programming!
 ### Unity
 
 #### Rigidbody
-- **Date**: 2024-09-26
+- **Date**: 2024-09-22
 - **What I Learned**: How to use RigidBody for physics in Unity.
 - **File Link**: [My RigidBody Notes](link-to-your-file.md)
+
+---
