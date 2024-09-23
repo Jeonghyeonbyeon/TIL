@@ -31,7 +31,7 @@
   Unity 공식 문서와 온라인 튜토리얼을 통해 Collider의 기본 개념을 배웠습니다.
 
 - **유용했던 자료** : Collider 관련 Unity 문서와 여러 실습 예제가 도움이 되었습니다.  
-  - [Unity Collider 공식 문서](https://docs.unity3d.com/ScriptReference/Collider.html)
+- [Unity Collider 공식 문서](https://docs.unity3d.com/ScriptReference/Collider.html)
 
 ## 4. 느낀 점 & 팁
 - **학습하면서 느낀 점이나 주의할 점**  
