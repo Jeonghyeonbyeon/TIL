@@ -9,6 +9,7 @@ Daily notes on my journey in game development and programming!
 - [Collider](#collider)
 
 ### C#
+- [조건문 (if, else, switch)](#조건문-if-else-switch)
 
 ### Design
 
@@ -27,3 +28,18 @@ Daily notes on my journey in game development and programming!
 - **Date** : 2024-09-23
 - **What I Learned** : Collider가 충돌을 감지하는 방법과 BoxCollider, SphereCollider의 기본을 배웠습니다.
 - **Open File** : [Collider](./1.%20Unity/Collider.md)
+
+---
+
+### C#
+
+#### 조건문 (if, else, switch)
+- **Date** : 2024-09-24
+- **What I Learned** : C#에서 조건문을 사용해 프로그램의 흐름을 제어하는 방법을 배웠습니다.
+- **Open File** : [조건문 (if, else, switch)](/2.%20C%23/%EC%A1%B0%EA%B1%B4%EB%AC%B8%20(if%2C%20else%2C%20switch).md)
+
+---
+
+### Design
+
+---
