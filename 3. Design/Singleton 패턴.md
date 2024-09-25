@@ -14,14 +14,14 @@
       // Singleton 인스턴스
       private static GameManager instance;
 
-      // 인스턴스에 접근할 수 있는 전역 프로퍼티
+      // 인스턴스로 접근하기 위한 프로퍼티
       public static GameManager Instance
       {
           get
           {
               if (instance == null)
               {
-                  // GameManager 객체가 없을 경우 새로 생성
+                  // GameManager 없을 경우 새로 생성
                   instance = FindObjectOfType<GameManager>();
 
                   if (instance == null)
@@ -36,7 +36,7 @@
 
       private void Awake()
       {
-          // 인스턴스가 이미 존재하면 파괴
+          // 인스턴스가 이미 존재하면 삭제
           if (instance != null && instance != this)
           {
               Destroy(gameObject);
@@ -45,25 +45,23 @@
 
           // 인스턴스를 유지
           instance = this;
-          DontDestroyOnLoad(gameObject); // 씬 전환 시에도 인스턴스를 유지
+          DontDestroyOnLoad(gameObject); // 씬 전환 시에도 싱글톤 오브젝트 유지
       }
   }
 ## 3. 학습한 방법
 - **이 주제를 어떻게 배웠는가?**  
-  Singleton 패턴은 Unity 게임 개발에서 자주 사용되기 때문에 다양한 예제를 통해 학습했습니다. 게임 오브젝트의 관리와 글로벌 데이터를 처리하는 데 매우 유용한 패턴이라는 점을 인식하게 되었습니다.
+  Singleton 패턴은 Unity 게임 개발에서 자주 사용되기 때문에 YouTube 싱글톤 패턴 강좌를 보며 공부했습니다.
 
 - **유용했던 자료** :  
-  - [C# Singleton 패턴 공식 문서](https://learn.microsoft.com/ko-kr/dotnet/standard/design-patterns/singleton)  
-  - [Unity Singleton 패턴 예제](https://learn.unity.com/)
+  - [베르의 게임 개발 유튜브 : 싱글톤 패턴 구현하기](youtube.com/watch?v=-wzULWMvFu0)
 
 ## 4. 느낀 점 & 팁
 - **학습하면서 느낀 점이나 주의할 점**  
-  Singleton 패턴은 유용하지만 남용할 경우 코드의 결합도가 높아질 수 있습니다. 또한, 멀티스레딩 환경에서 사용 시 주의해야 하며, 게임에서의 리소스 관리 객체나 게임 상태 관리에 적합합니다.
+  Singleton 패턴은 유용하지만 남용할 경우 코드의 복잡하게 만들수 있습니다. 또 멀티스레딩 환경에서 사용 시 주의해야 하고, 게임에서의 리소스 관리 객체나 게임 상태 관리에 적합합니다.
 
 ### 팁
 - `DontDestroyOnLoad` 메서드를 사용하면 씬이 전환될 때도 Singleton 객체를 유지할 수 있습니다.
-- 필요하지 않은 경우, Singleton을 남용하지 않도록 주의해야 합니다. 여러 기능을 관리하려는 유혹에 빠지지 말고 단일 책임 원칙(SRP)을 지켜야 합니다.
+- 필요하지 않은 경우, Singleton을 남용하지 않도록 주의해야 합니다.
 
 ## 5. 관련 주제 링크
-- [C# Singleton 패턴 공식 문서](https://learn.microsoft.com/ko-kr/dotnet/standard/design-patterns/singleton)  
-- [Unity Singleton 패턴 구현 튜토리얼](https://learn.unity.com/)
+- [베르의 게임 개발 유튜브 : 싱글톤 패턴 구현하기](youtube.com/watch?v=-wzULWMvFu0)
