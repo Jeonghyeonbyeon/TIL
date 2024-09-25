@@ -42,8 +42,8 @@
   Rigidbody를 사용할 때 중요한 점은 오브젝트의 무게와 충돌 감지 설정으로, `Mass`를 적절히 설정하지 않으면 오브젝트가 예상치 못하게 움직일 수 있습니다. 또 `isKinematic`속성 설정을 잘못 설정하면 물리효과가 비활성화 될 수 있으므로 정확하게 설정해야한다.
 
 ### 팁
-- `Use Gravity` 옵션이 활성화 되어있으면 중력의 영향을 안 받습니다.
-- `Constraints` 설정을 사용하여 특정 축의 움직임을 고정할 수 있습니다.
+- `Use Gravity` 옵션이 활성화 되어있으면 중력의 영향을 안 받는다.
+- `Constraints` 설정을 사용하여 특정 축의 움직임을 고정할 수 있다.
 
 ## 5. 관련 주제 링크
 - [Unity Rigidbody 컴포넌트 공식 문서](https://docs.unity3d.com/ScriptReference/Rigidbody.html)
