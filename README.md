@@ -12,6 +12,7 @@ Daily notes on my journey in game development and programming!
 - [조건문 (if, else, switch)](#조건문-if-else-switch)
 
 ### Design
+- [Singleton 패턴](#singleton-패턴)
 
 ---
 
@@ -42,4 +43,7 @@ Daily notes on my journey in game development and programming!
 
 ### Design
 
----
+#### Singleton 패턴
+- **Date** : 2024-09-25
+- **What I Learned** : Singleton 패턴을 통해 하나의 인스턴스만 유지되도록 하여 게임 내 전역적으로 데이터와 오브젝트를 관리하는 방법을 배웠습니다.
+- **Open File** : [Singleton 패턴](/3.%20Design/Singleton%20패턴.md)
