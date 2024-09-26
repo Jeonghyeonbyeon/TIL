@@ -10,6 +10,7 @@ Daily notes on my journey in game development and programming!
 
 ### C#
 - [조건문 (if, else, switch)](#조건문-if-else-switch)
+- [상수 (const)](#상수-const)
 
 ### Design
 - [Singleton 패턴](#singleton-패턴)
@@ -37,7 +38,12 @@ Daily notes on my journey in game development and programming!
 #### 조건문 (if, else, switch)
 - **Date** : 2024-09-24
 - **What I Learned** : C#에서 조건문을 사용해 프로그램의 흐름 제어를 배웠습니다.
-- **Open File** : [조건문 (if, else, switch)](/2.%20C%23/%EC%A1%B0%EA%B1%B4%EB%AC%B8%20(if%2C%20else%2C%20switch).md)
+- **Open File** : [조건문 (if, else, switch)](/2.%20C%23/조건문%20(if,%20else,%20switch).md)
+
+#### 상수 (const)
+- **Date** : 2024-09-26
+- **What I Learned** : C#에서 `const`를 사용하여 변하지 않는 상수를 정의하고, 코드의 가독성 및 유지보수성을 높이는 방법을 배웠습니다.
+- **Open File** : [상수 (const)](/2.%20C%23/상수%20(const).md)
 
 ---
 
