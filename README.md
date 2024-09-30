@@ -12,6 +12,7 @@ Daily notes on my journey in game development and programming!
 - [조건문 (if, else, switch)](#조건문-if-else-switch)
 - [상수 (const)](#상수-const)
 - [클래스 (Class)](#클래스-class)
+- [소멸자 (Destructor)](#소멸자-destructor)
 
 ### Design
 - [Singleton 패턴](#singleton-패턴)
@@ -50,6 +51,11 @@ Daily notes on my journey in game development and programming!
 - **Date** : 2024-09-27
 - **What I Learned** : C#에서 클래스를 사용하여 객체를 정의하고, 데이터(필드)와 기능(메서드)를 구조적으로 관리하는 방법을 배웠습니다.
 - **Open File** : [클래스 (Class)](/2.%20C%23/클래스%20(Class).md)
+
+#### 소멸자 (Destructor)
+- **Date** : 2024-09-30
+- **What I Learned** : C#에서 소멸자를 사용하여 객체가 가비지 컬렉션에 의해 제거될 때 리소스를 해제하는 방법을 배웠습니다.
+- **Open File** : [소멸자 (Destructor)](/2.%20C%23/소멸자%20(Destructor).md)
 
 ---
 
