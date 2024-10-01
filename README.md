@@ -13,6 +13,7 @@ Daily notes on my journey in game development and programming!
 - [상수 (const)](#상수-const)
 - [클래스 (Class)](#클래스-class)
 - [소멸자 (Destructor)](#소멸자-destructor)
+- [리스트 (List<T>)](#리스트-listt)
 
 ### Design
 - [Singleton 패턴](#singleton-패턴)
@@ -56,6 +57,11 @@ Daily notes on my journey in game development and programming!
 - **Date** : 2024-09-30
 - **What I Learned** : C#에서 소멸자를 사용하여 객체가 가비지 컬렉션에 의해 제거될 때 리소스를 해제하는 방법을 배웠습니다.
 - **Open File** : [소멸자 (Destructor)](/2.%20C%23/소멸자%20(Destructor).md)
+
+#### 리스트 (List\<T\>)
+- **Date** : 2024-10-01
+- **What I Learned** : C#의 `List<T>`는 동적으로 크기를 조정할 수 있는 유연한 자료 구조이며, 데이터를 효율적으로 저장하고 관리하는 방법을 배웠습니다.
+- **Open File** : [리스트 (List<T>)](/2.%20C%23/리스트%20(List<T>).md)
 
 ---
 
