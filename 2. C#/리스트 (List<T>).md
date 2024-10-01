@@ -1,4 +1,4 @@
-# 📅 2024-10-01 주제 : 리스트 (List<T>)
+# 📅 2024-10-01 주제 : 리스트 (List\<T>)
 
 ## 1. 설명
 - **무엇을 배웠는가?**  
@@ -43,7 +43,7 @@
   동적 데이터 저장의 필요성을 느껴서 C#에서 배열과 비슷하면서 더 유연한 자료 구조인 `List<T>`에 대해 학습했습니다. 제네릭의 개념을 익히고 다양한 타입을 리스트로 다룰 수 있는 방법을 배웠습니다.
 
 - **유용했던 자료**:  
-  - [C# List<T> 공식 문서](https://learn.microsoft.com/ko-kr/dotnet/api/system.collections.generic.list-1?view=net-7.0)
+  - [C# List\<T> 공식 문서](https://learn.microsoft.com/ko-kr/dotnet/api/system.collections.generic.list-1?view=net-7.0)
 
 ## 4. 느낀 점 & 팁
 - **학습하면서 느낀 점이나 주의할 점**  
@@ -53,4 +53,4 @@
 - `List<T>`에서 빈번한 삽입이나 삭제 작업이 이루어질 경우 성능에 영향을 줄 수 있습니다. 이런 경우 `LinkedList<T>`를 고려해볼 수 있습니다.
 
 ## 5. 관련 주제 링크
-- [C# List<T> 공식 문서](https://learn.microsoft.com/ko-kr/dotnet/api/system.collections.generic.list-1?view=net-7.0)
+- [C# List\<T> 공식 문서](https://learn.microsoft.com/ko-kr/dotnet/api/system.collections.generic.list-1?view=net-7.0)
